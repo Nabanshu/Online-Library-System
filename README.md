@@ -12,48 +12,42 @@ A modern online library system built with Vite, React, and Redux.
 
 ## Installation
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/online-library-vite.git
+   cd online-library-vite
+   ```
 
-```bash
-git clone https://github.com/yourusername/online-library-vite.git
-cd online-library-vite
-Install dependencies:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-Copy
-npm install
-Start the development server:
-
-```bash
-Copy
-npm run dev
-Open your browser to http://localhost:5173
-
+4. Open your browser to:
+   ```
+   http://localhost:5173
+   ```
 
 ## Technologies Used
-Vite
 
-React
-
-React Router
-
-Redux
-
-React Redux
-
-Redux Thunk
-
-CSS
-
+- **Vite**
+- **React**
+- **React Router**
+- **Redux**
+- **React Redux**
+- **Redux Thunk**
+- **CSS**
 
 ## Project Structure
-src/components/ - Reusable UI components
 
-src/pages/ - Page components
-
-src/redux/ - State management
-
-src/App.jsx - Main application component
-
-src/main.jsx - Application entry point
+- `src/components/` - Reusable UI components
+- `src/pages/` - Page components
+- `src/redux/` - State management
+- `src/App.jsx` - Main application component
+- `src/main.jsx` - Application entry point
 
